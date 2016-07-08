@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>SmartNinja basic Jinja template</title>
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <h1>Hello, guess a number!</h1>
+    <h3>Hint, the number is between 0 and 100.</h3>
+    <form method="post">
+        <label for="input_guess"></label>
+        <input name="enter_guess" type="number" placeholder="enter your guess" id="input_guess">
+        <br>
+        <br>
+        <button type="submit">Enter</button>
+    </form>
+    <h3> {{guesses}} </h3>
+</body>
+</html>
